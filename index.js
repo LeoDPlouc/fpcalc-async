@@ -1,5 +1,5 @@
-import { promisify } from "util"
-import fpcalc from "fpcalc"
+const { promisify } = require("util")
+const fpcalc = require("fpcalc")
 
 function fp1arg(arg, callback) {
     if (arg.options) fpcalc(arg.file, arg.options, callback)
