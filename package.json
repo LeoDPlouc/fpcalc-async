@@ -1,6 +1,6 @@
 {
   "name": "fpcalc-async",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Async wrapper around fpcalc package",
   "main": "index.js",
   "scripts": {

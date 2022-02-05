@@ -15,4 +15,4 @@ async function fpcalcAsync(file, options) {
     return await fp(arg)
 }
 
-exports = fpcalcAsync
+module.exports = fpcalcAsync
